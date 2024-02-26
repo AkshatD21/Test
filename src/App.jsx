@@ -1,10 +1,11 @@
 import React from "react";
-import Map from "./Map";
+// import Map from "./Map";
+import CustomMap from "./GoogleMap";
 
 function App() {
   return (
     <div className="App">
-      <Map />
+      <CustomMap />
     </div>
   );
 }
