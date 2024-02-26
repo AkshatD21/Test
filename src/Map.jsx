@@ -32,7 +32,7 @@ function Map() {
   };
 
   return (
-    <LoadScript googleMapsApiKey="AIzaSyCMbPJXPLiPciUCrdC8u7iVaizR385FXHc">
+    <LoadScript googleMapsApiKey="UR_API_KEY">
       <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={13}>
         <DirectionsService
           options={{
