@@ -1,0 +1,108 @@
+.card {
+  width: 300px; /* Adjust the width as needed */
+  padding: 15px 15px 20px 15px;
+  background-color: black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+.blank {
+  height: 50px;
+  border-bottom: 1px solid grey;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Add this line */
+  margin-bottom: 20px;
+  border-bottom: 1px solid grey; /* Add border to the logo container */
+  padding: 30px 15px 30px 15px; /* Optional: Add some padding for spacing */
+}
+
+.dotA {
+  width: 3px;
+  height: 3px;
+  background-color: #c1ff33;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.dotB {
+  width: 3px;
+  height: 3px;
+  background-color: grey;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  border-bottom: 1px solid grey; /* Add border to the logo container */
+  padding-bottom: 25px; /* Optional: Add some padding for spacing */
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.single {
+  display: flex;
+  align-items: center;
+}
+
+.profile img.profile-photo {
+  width: 40px; /* Adjust the width as needed */
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start */
+}
+
+.profile-name {
+  margin: 0;
+  color: white;
+}
+
+.profession {
+  margin: 0;
+  color: #ccc;
+  font-weight: lighter; /* Set font weight to lighter */
+}
+
+.actions {
+  display: flex;
+  align-items: center; /* Align items to the center */
+}
+
+.actions svg {
+  margin-left: 10px;
+}
+
+.line {
+  position: absolute;
+  padding-bottom: 3px;
+  border-radius: 3px;
+  bottom: 10px; /* Adjust the distance from the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 1px;
+  background-color: #ffff;
+}
